@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="Assets/b&w.jpeg" alt="Spotify Logo">
+        </div>
+
+        <div class="home"><img src="./Assets/home1.png"></div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="text" placeholder="What do you want to play?">
+            <span></span>
+        </div>
+
+        <!-- Add Button -->
+        <div class="icon-button"><i class="fa-solid fa-plus"></i></div>
+
+        <!-- Explore Premium Button -->
+        <div class="explore-button">Explore Premium</div>
+        <div class="install-button"><i class="fa-regular fa-circle-down"></i> Install App</div>
+
+        <!-- Actions and Profile -->
+        <div class="actions">
+            <span><i class="fa-solid fa-bell"></i></span>
+            <div class="profile">M</div>
+        </div>
+    </nav>
+    <div class="main"> 
+        <div class="sidebar">
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="./Assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                        <div class="hide">Collpse Your Library</div> 
+
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <div class="hide">Create playlist or folder</div>                     
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <div class="hide">Show more</div>   
+
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p  class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podccast to follow</p>
+                        <p  class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky-nav">
+                    <button class="badge">All</button>
+                    <button class="badge dark-badge">Music</button>
+                    <button class="badge dark-badge">Podcasts</button>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assets/topsongsindia.jpeg" class="card-img">
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/top50india.jpeg" class="card-img">
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/top50global.jpeg" class="card-img">
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/viral50.jpeg" class="card-img">
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/topsongsglobal.jpeg" class="card-img">
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+            </div>
+
+             <h2>Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assets/topsongsindia.jpeg" class="card-img">
+                    <p class="card-title">Top songs</p>
+                    <p class="card-info">-India</p>
+                </div>
+            </div>
+
+            <h2>Shows to try</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assets/serialkillers.jpeg" class="card-img">
+                    <p class="card-title">Serial Killers</p>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/yaad seher.jpeg" class="card-img">
+                    <p class="card-title">Yaad Sheher with Neelesh Mishra</p>
+                    <p class="card-info">Neelesh Mishra</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/biblestudy.jpeg" class="card-img">
+                    <p class="card-title">Fr.Daniel Poovanathil</p>
+                    <p class="card-info">Mount Carmel Retreat Center</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/onair.jpeg" class="card-img">
+                    <p class="card-title">Ashutosh Meena Am2</p>
+                    <p class="card-info">Ashutosh Meena</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/dailybrief.jpeg" class="card-img">
+                    <p class="card-title">The Daily Brief</p>
+                    <p class="card-info">Zerodha</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+         </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./Assets/player_icon1.png" class="player-control-icon">
+                    <img src="./Assets/player_icon2.png" class="player-control-icon">
+                    <img src="./Assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./Assets/player_icon4.png" class="player-control-icon">
+                    <img src="./Assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">5:12</span>
+
+                </div>
+            </div>
+            <div class="controls">
+                <div class="music-bar">
+                    <button class="control-btn"><i class="fas fa-play fa-play-toggle"></i></button>
+                    <button class="control-btn"><i class="fas fa-bars"></i></button>
+                    <button class="control-btn"><i class="fas fa-desktop"></i></button>
+                    <button class="control-btn"><i class="fas fa-volume-up"></i></button>
+                    
+                    <input type="range" class="volume-slider">
+                    
+                    <button class="control-btn"><i class="fas fa-expand"></i></button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
